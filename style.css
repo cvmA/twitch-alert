@@ -7,9 +7,7 @@ html {
   justify-content: center;
   padding: 1rem;
 }
-.alert_outer-container.playing {
-  animation: 12s alert-animation ease-in-out forwards;
-}
+
 .alert_widget-container {
   display: flex;
   background-color: #181818;
@@ -23,25 +21,6 @@ html {
   padding: 12px;
   border-radius: 10px;
 }
-
-/* .alert_image-container {
-  display: flex;
-  flex-grow: 1;
-  width: 50%;
-  margin-top: 16px;
-  justify-content: center;
-  align-self: center;
-}
-
-.alert_text-container {
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-  width: 100%;
-  z-index: 1;
-  max-height: 100%;
-  max-width: 100%;
-} */
 
 .alert_text {
   font-family: "Roboto", sans-serif;
@@ -68,39 +47,22 @@ html {
   height: 100%;
 }
 
-/*@keyframes alert-animation {*/
-/*  0% {*/
-/*    opacity: 0;*/
-/*  }*/
-/*  8.333333333333332% {*/
-/*    opacity: 1;*/
-/*  }*/
-/*  91.66666666666667% {*/
-/*    opacity: 1;*/
-/*  }*/
-/*  100% {*/
-/*    opacity: 0;*/
-/*  }*/
-/*}*/
-
 @keyframes shrinkWidth {
   0% {
     max-width: 100%;
   }
   100% {
     width: 1px;
-    /* Adjust the final width as needed */
   }
 }
 
 @keyframes expandWidth {
   0% {
-    width: 50px;
+    width: 1px;
   }
   100% {
     width: 400px;
     max-width: 100%;
-    /* Adjust the final width as needed */
   }
 }
 
